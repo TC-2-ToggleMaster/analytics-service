@@ -9,7 +9,7 @@ Sua única função é:
 
 ## 📦 Pré-requisitos (Local)
 
-* [Python](https://www.python.org/) (versão 3.9 ou superior)
+* [Python](https://www.python.org/) (versão 3.10 ou superior)
 * **Credenciais da AWS:** Este serviço **DEVE** ter credenciais da AWS para acessar SQS e DynamoDB. Configure-as em seu terminal (via `aws configure`) ou defina as variáveis de ambiente:
     * `AWS_ACCESS_KEY_ID`
     * `AWS_SECRET_ACCESS_KEY`
@@ -59,6 +59,10 @@ AWS_REGION="us-east-1"
 **3. Instale as Dependências:**
 ```bash
 pip install -r requirements.txt
+```
+ou
+```bash
+py -m pip install -r requirements.txt
 ```
 
 **4. Inicie o Serviço:**
